@@ -34,6 +34,7 @@
 >>        <SEASON>Autumn</SEASON>
 >>        <COUNTRY>Canada</COUNTRY>
 >>    </INFO
+
  11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 >vim skills.txt
 >>    <?xml version="1.0"?>
@@ -47,6 +48,10 @@
  14. На веб интерфейсе создать файл bug_report.xml.
 >GitHub -> add file -> create new file -> bug_report.xml
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+>GitHub -> Commit changes
  16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+>GitHub -> bug_report.xml -> edit this file
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+>GitHub -> commit changes
  18. Синхронизировать внешний и локальный репозиторий XML
+>git pull
