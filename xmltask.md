@@ -13,13 +13,13 @@
 >git push
  7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
 >vim new.xml
->><?xml version="1.0"?>
->>     <INFO>
->>        <NAME>Alexander Yrovenko</NAME>
->>        <AGE>34</AGE>
->>        <PETS>0</PETS>
->>        <SALARY>1000</SALARY>
->>    </INFO>
+><?xml version="1.0"?>
+>     <INFO>
+>        <NAME>Alexander Yrovenko</NAME>
+>        <AGE>34</AGE>
+>       <PETS>0</PETS>
+>       <SALARY>1000</SALARY>
+>    </INFO>
  8. Отправить изменения на внешний репозиторий.
 >git commit -am "change xml" && git push
  9. Создать файл preferences.xml
