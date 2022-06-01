@@ -13,7 +13,7 @@
 >git push
  7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
 >vim new.xml
-><?xml version="1.0"?>
+> <?xml version="1.0"?>
 >     <INFO>
 >        <NAME>Alexander Yrovenko</NAME>
 >        <AGE>34</AGE>
@@ -33,7 +33,7 @@
 >        <FOOD>Cheeseburger</FOOD>
 >        <SEASON>Autumn</SEASON>
 >        <COUNTRY>Canada</COUNTRY>
->    </INFO
+>    </INFO>
 
  11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 >vim skills.txt
